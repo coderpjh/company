@@ -1,0 +1,52 @@
+.clzy-main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:rgba(0,0,0,1);
+    z-index:1;
+    .ivu-layout {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .main-header {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        min-height: 60px;
+        position: relative;
+        background: #ffffff;
+    }
+    .main-footer {
+        width: 100%;
+        height: 20rem;
+        min-height: 20rem;
+        background: #28354D;
+    }
+    .main-content-con {
+        width: 100%;
+        position: relative;
+        .content-wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+    #cover{
+        display: none;
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:2;
+        background:rgba(0,0,0,1);
+        opacity:0.5;
+}
+
+@media only screen and(max-width:1600px){
+    .clzy-main{
+        min-width: 1600px;
+    }
+   
+}

@@ -1,0 +1,224 @@
+.marqueecontainer{
+    width: 1200px;
+    margin: 28px auto;
+    height: 910px;
+    margin-bottom: 60px;
+    h3{
+        width: 100%;
+        text-align: center;
+        height:37px;
+        font-size:26px;
+        font-weight:600;
+        line-height:37px;
+        color:rgba(0,0,0,1);
+        opacity:1;
+    }
+    .time{
+        text-align: center;
+        margin-top: 5px;
+        width:100%;
+        height:22px;
+        font-size:16px;
+        font-weight:400;
+        line-height:22px;
+        color:rgba(153,153,153,1);
+        opacity:1;
+    }
+    .imgmarquee{
+        width: 1200px;
+        height: 394px;
+        position: relative;
+        margin-top: 16px;
+        img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        .marqueeleft{
+            transition: 1.5s;
+            width: 300px;
+            height: 198px;
+            position: absolute;
+            left: 0;
+            top: 98px;
+            opacity:0.5; 
+        }
+        .marqueecenter{
+            transition: 1.5s;
+            width:600px;
+            height:394px;
+            background:rgba(0,0,0,0);
+            box-shadow:2px 7px 16px rgba(0,0,0,0.24);
+            opacity:1;
+            position: absolute;
+            top: 0;
+            left: 300px;
+        }
+        .marqueeright{
+            transition: 1.5s;
+            width: 300px;
+            height: 198px;
+            position: absolute;
+            left: 900px;
+            top: 98px;
+            opacity:0.5; 
+        }
+        .another{
+            transition: 1.5s;
+            display: none;
+        }
+        .transition{
+            transition: 1.5s;
+            display: none;
+        }
+        .marqueebtn{
+            width: 95px;
+            height: 20px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            .selected{
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                line-height: 20px;
+                text-align: center;
+                font-size:13px;
+                font-weight:600;
+                color:rgba(0,0,0,1);
+                opacity:1;
+                background:rgba(255,255,255,1);
+                border:1px solid rgba(0,0,0,1);
+            }
+            .normal{
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                line-height: 20px;
+                text-align: center;
+                font-size:13px;
+                font-weight:600;
+                color:rgba(205,213,221,1);
+                opacity:1;
+                border:1px solid rgba(205,213,221,1);
+            }
+        }
+    }
+    .appcontent{
+        margin-top: 41px;
+        height: 394px;
+        width: 1200px;
+        .steps{
+            float: left;
+            width: 11%;
+            height: 100%;
+            .line{
+                float: left;
+                width: 12px;
+                height: 324px;
+                margin-top: 35px;
+                margin-bottom: 35px;
+                .point{
+                    width:11px;
+                    height:11px;
+                    background:rgba(255,255,255,1);
+                    border:1px solid rgba(9,125,240,1);
+                    border-radius:50%;
+                    opacity:1;
+                }
+                .line1{
+                    width:0px;
+                    margin-left: 3px;
+                    height:119px;
+                    border:1px solid rgba(9,125,240,1);
+                    opacity:1;
+                }
+                .line2{
+                    width:0px;
+                    margin-left: 3px;
+                    height:57px;
+                    border:1px solid rgba(9,125,240,1);
+                    opacity:1;
+                }
+                .line3{
+                    width:0px;
+                    margin-left: 3px;
+                    height:110px;
+                    border:1px solid rgba(9,125,240,1);
+                    opacity:1;
+                }
+            }
+            .linecontent{
+                width: 60px;
+                height: 100%;
+                float: left;
+                margin-left: 10px;
+                position: relative;
+                p{
+                    width:120px;
+                    height:28px;
+                    font-size:20px;
+                    font-weight:600;
+                    line-height:25px;
+                    color:rgba(9,125,240,1);
+                    opacity:1;
+                }
+                .step1{
+                    position: absolute;
+                    left: 0;
+                    top: 30px;
+                }
+                .step2{
+                    position: absolute;
+                    left: 0;
+                    top: 160px;
+                }
+                .step3{
+                    position: absolute;
+                    left: 0;
+                    top: 228px;
+                }
+                .step4{
+                    position: absolute;
+                    left: 0;
+                    top: 355px;
+                }
+            }
+        }
+        .step_content{
+            width: 89%;
+            float: left;
+            height: 100%;
+            div{
+                border-top: 1px solid #CDD5DDFF;
+                border-bottom: 1px solid #CDD5DDFF;
+                font-size:16px;
+                font-weight:400;
+                line-height:30px;
+                color:rgba(0,0,0,1);
+                padding-top: 28px;
+                opacity:1;
+            }
+            .Scontent1{
+                width: 100%;
+                height: 130px;
+                text-indent: 2em;
+            }
+            .Scontent2{
+                height: 68px;
+                width: 100%;
+            }
+            .Scontent3{
+                height: 127px;
+                width: 100%;
+                padding-right: 75px;
+            }
+            .Scontent4{
+                height: 69px;
+                width: 100%;
+            }
+        }
+    }
+}

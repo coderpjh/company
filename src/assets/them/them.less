@@ -1,0 +1,48 @@
+/*
+* description: 统一样式变量设置入口，方便实现换肤和统一更换主题样式设置
+* author: yangchangzhi
+* company: 成理智源科技
+* date: 2019-08-08
+*/
+@import "./font-size";
+@import "./color";
+@import "./customer";
+@import './components/index';
+
+
+// 一些全局的样式处理
+html, body {
+     width: 100%;
+     height: 100%;
+     position: relative;
+ }   
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-size: 0.7292vw;
+  position: relative;
+}
+
+// 加载中动画
+.spin-icon-load {
+  animation: ani-demo-spin 1s linear infinite;
+}
+
+@keyframes ani-demo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

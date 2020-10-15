@@ -1,0 +1,79 @@
+.topcontainer{
+    width: 1500px;
+    height: 60px;
+    background:rgba(255,255,255,1);
+    .clzy-header {
+        margin: 0 auto;
+        width: 1200px;
+        position: relative;
+    	height: 60px;
+        display: flex;
+        .header-left {
+            width: 17%;
+            height: 100%;
+            display: inline-block;
+            text-align: center;
+            .header-content {
+                position: relative;
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .system-logo {
+                    position: absolute;
+                    left: 0;
+                    width: 190px;
+                    height: 45px;
+                }
+                .system-title {
+                    padding-left: 5px;
+                    color: #1C1D1D;
+                    font-weight: bold;
+                    font-size: 22px;
+                }
+            }
+        }
+        .header-right {
+            width: auto;
+            height: 100%;
+            display: inline-block;
+        }
+    	.rightbtn{
+            display: inline-block;
+            position: absolute;
+            top: 5px;
+    		width:300px;
+    		height:50px;
+    	}
+        .login_btns {
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+            justify-content: center;
+            ._login_type_item {
+                width: 8.333333rem;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border-radius: 3.333333rem;
+                margin-left: 0.833333rem;
+                background: #0d9fe1;
+                img {
+                    width: 1.666666rem;
+                    height: 1.666666rem;
+                    vertical-align: middle;
+                }
+                span {
+                    vertical-align: middle;
+                    padding-left: 0.416666rem;
+                    color: #FFFFFF;
+                }
+            }
+            ._login_type_item.btn_weixin {
+                background: #07b02a;
+            }
+        }
+    }
+}
+
